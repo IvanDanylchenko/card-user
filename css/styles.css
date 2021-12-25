@@ -13,13 +13,14 @@
 
 .container-user-card {
   display: flex;
+  justify-content: start;
   flex-wrap: wrap;
 }
 
 .user-card {
+  display: flex;
   flex-basis: 250px;
   flex-grow: 1;
-  display: flex;
   flex-direction: column;
   margin: 10px;
   border-radius: 20px;
@@ -77,13 +78,17 @@
   padding: 10px;
 }
 
+.user-info i {
+  padding: 5px;
+}
+
 .button-card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: 5px;
 }
 
 .button-white {
@@ -109,7 +114,7 @@
 
 .footer-card {
   margin: 20px;
-  font-size: 0.5em;
+  font-size: 0.9em;
   color: #c7c6d6;
 }
 
